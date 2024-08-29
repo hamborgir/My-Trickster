@@ -1,0 +1,125 @@
+header {
+    left: 10vw;
+    position: fixed;
+    width: 80vw;
+    height: 117px;
+    top: 39px;
+    background-color: #00000099;
+    border-radius: 15px;
+    display: flex;
+    backdrop-filter: blur(5px);
+    /* padding: 10px 10px; */
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 500px;
+    /* color: green; */
+}
+
+.nav a {
+    font-family: "AnekMalayalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: normal;
+    font-style: normal;
+}
+
+.logo {
+    width: 180px;
+    height: 100px;
+    /* top: 10000px; */
+    left: 48px;
+}
+
+
+
+.specs {
+    background-color: #0b1227;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+  
+.div {
+    background-color: #0b1227;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+
+.container1 {
+    position: absolute;
+    width: 1198px;
+    height: 224px;
+    top: 222px;
+    left: 122px;
+}
+  
+.wrapper {
+    position: relative;
+    width: 1196px;
+    height: 224px;
+    border: 6px solid;
+    border-color: #ffffff;
+}
+  
+.specs p {
+    position: absolute;
+    width: 1118px;
+    top: 16px;
+    left: 24px;
+    font-family: "Azeret Mono", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  
+.container2 {
+    position: absolute;
+    width: 1198px;
+    height: 224px;
+    top: 488px;
+    left: 122px;
+}
+
+  .footer {
+    width: 100vw;
+    height: 218px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction:column;
+    background-color: black;
+}
+
+.footer .container {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+
+}
+
+.footer .icons {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.footer .icon {
+    height: 50px;
+    width: 50px;
+}
